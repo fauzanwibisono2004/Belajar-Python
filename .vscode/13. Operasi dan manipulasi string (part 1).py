@@ -42,7 +42,7 @@ print('index ke-0 =',nama_lengkap[0]) #index dalam string selalu dimulai dari 0
 print('index ke-1 =',nama_lengkap[1])
 print('index ke-(-1) =',nama_lengkap[-1]) #apabila minus, maka akan diambil dari char yang paling belakang
 print('index ke-(-2) =',nama_lengkap[-2]) 
-print('index ke-[0:3] =',nama_lengkap[0:3]) #asumsi mengambil karakter F,a,u,z tapi ternyata tidak.
+print('index ke-[0:3] =',nama_lengkap[0:3]) #asumsi mengambil karakter F,a,u,z tapi ternyata tidak. Hanya F,a,u
 #dalam python, jika ingin mengambil range data, maka index data terakhir tidak ikut serta sehingga perlu ditambah satu angka
 #contoh :
 print('index ke-[0:3] =',nama_lengkap[0:4]) # [0 : 4] sehingga didapat char F,a,u,z
