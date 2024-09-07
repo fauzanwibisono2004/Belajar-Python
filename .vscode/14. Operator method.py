@@ -37,6 +37,7 @@ print(salam,'is lower =',str(apakah_lower),'\n')
 # "isspace()" ---> mengecek spasi, tab, newline \n
 # "istitle() ---> semua kata yang dimulai dengan huruf kapital
 
+# Pengecekan huruf awalan judul apakah sudah kapital
 judul = 'Deadpool Vs Wolverine'
 cek_judul = judul.istitle() #tipe datanya boolean
 print(judul,' is title =',str(cek_judul)) #hasilnya "True" karena memang benar dalam penulisan "Deadpool VS Wolverine" semua kata diawali kapital
@@ -100,3 +101,6 @@ print('|'+align_kiri+'|')
 align_center = 'center'.center(20,'*')
 print('|'+align_center+'|')
 
+# Kebalikannya, yaitu --> strip() untuk menghilangkan suatu karakter tertentu
+align_center = align_center.strip('*') #artinya kita ingin menghilangkan "*" yang ada pada align_center sebelumnya 
+print('|'+align_center+'|')

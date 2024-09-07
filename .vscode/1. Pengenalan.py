@@ -21,3 +21,4 @@ print('world') #menggunakan tanda kutip satu juga bisa
 # "\n" artinya enter dalam program
 # "hex(id('variabel'))" menunjukkan id atau address memory suatu variabel
 # "Alt + 'pilih kursor'" untuk select beberapa kursor
+# Jika di dalam print menggunakan "+", dia akan menambahkan tanpa memberikan "spasi"

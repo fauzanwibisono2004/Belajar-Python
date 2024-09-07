@@ -13,7 +13,7 @@
 # Floor division adalah kebalikan dari modulus, lalu dibulatkan ke bawah
 
 # Memberi variabel
-a = 10
+a = 12
 b = 3
 
 # Penjumlahan :
@@ -31,10 +31,10 @@ print(a,'/',b,'=',hasil)
 # Eksponen (Pangkat) :
 hasil = a ** b
 print(a,'**',b,'=',hasil)
-# Modulus :
+# Modulus : (sisa pembagian)
 hasil = a % b
 print(a,'%',b,'=',hasil)
-# Floor division :
+# Floor division : (hasil bagi, tanpa menyertakan sisa)
 hasil = a // b
 print(a,'//',b,'=',hasil)
 
