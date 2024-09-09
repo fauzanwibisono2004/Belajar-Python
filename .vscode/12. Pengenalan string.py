@@ -56,5 +56,3 @@ Nama: Fauzan ganteng \n
 Kelas: 11 \r SD
 Website: www.ojanganteng.com
       ''') #tanda \n dan \r tidak akan dideteksi sebagai enter
-
-print('')
