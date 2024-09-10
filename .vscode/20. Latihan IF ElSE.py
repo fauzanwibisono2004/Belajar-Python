@@ -25,6 +25,10 @@ print('\nTerimakasih !!\n')
 
 
 
+
+
+
+
 ### FILTER DATA NAMA HANYA MENGGUNAKAN IF ELSE
 print('\n======= FILTER DATA NAMA HANYA MENGGUNAKAN IF ELSE =======')
 '''
@@ -71,7 +75,7 @@ berat_badan = int(input('Berat badan (kg) :  > '))
 
 # Filter manual tanpa loop :
 if nama[0][2] >= tinggi_badan and nama[0][3] >= berat_badan :
-    terpilih.append(nama[0][0])
+    terpilih.append(nama[0][0]) #"nama[0][2]" artinya memanggil indeks list dalam list, yaitu memanggil tinggi badan. "nama[0][3]" memanggil indeks berat badan
 else:
     pass
 if nama[1][2] >= tinggi_badan and nama[1][3] >= berat_badan :
@@ -161,6 +165,10 @@ print(terpilih,'\n')
 
 
 
+
+
+
+
 ### FILTER DATA NAMA MENGGUNAKAN LOOPING DAN IF ELSE
 print('\n===== FILTER DATA NAMA MENGGUNAKAN LOOPING DAN IF ELSE =====')
 '''
@@ -212,8 +220,9 @@ for orang in nama :
 
 '''
 Kita dapat langsung menulis orang[2] karena konsep looping secara otomatis akan mengecek 
-untuk tinggi badan dalam list nama[0][2], nama[1][2], nama[3,2] begitu seterusnya sampai 
-seluruh data dalam list nama didentifikasi.
+indeks list dalam list untuk tinggi badan dalam list nama[0][2], nama[1][2], nama[3,2] begitu seterusnya 
+sampai seluruh data dalam list nama didentifikasi.
+
 '''
 
 ## Menampilkan hasil filter
