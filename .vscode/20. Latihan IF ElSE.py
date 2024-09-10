@@ -60,10 +60,11 @@ nama = [
     ['Ananda', 20, 160, 59],
     ['Rico', 30, 165, 56]
 ]
+print(nama)
+
 
 # List kosong untuk menyimpan hasil filter
 terpilih = []
-
 
 '''Setelah seluruh data didapatkan, lalu dilakukan penyaringan untuk tinggi dan berat badan yang ditentukan oleh user'''
 
