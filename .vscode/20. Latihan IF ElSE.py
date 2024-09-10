@@ -74,8 +74,8 @@ tinggi_badan = int(input('Tinggi badan (cm) :  > '))
 berat_badan = int(input('Berat badan (kg) :  > '))
 
 # Filter manual tanpa loop :
-if nama[0][2] >= tinggi_badan and nama[0][3] >= berat_badan :
-    terpilih.append(nama[0][0]) #"nama[0][2]" artinya memanggil indeks list dalam list, yaitu memanggil tinggi badan. "nama[0][3]" memanggil indeks berat badan
+if nama[0][2] >= tinggi_badan and nama[0][3] >= berat_badan : #"nama[0][2]" artinya memanggil indeks list dalam list, yaitu memanggil tinggi badan. "nama[0][3]" memanggil indeks berat badan
+    terpilih.append(nama[0][0]) 
 else:
     pass
 if nama[1][2] >= tinggi_badan and nama[1][3] >= berat_badan :
