@@ -40,7 +40,7 @@ terpilih = []
 
 '''Setelah seluruh data didapatkan, lalu dilakukan penyaringan untuk tinggi dan berat badan yang ditentukan oleh user'''
 
-print('========== CARI ORANG ==========')
+print('\n\n========== CARI ORANG ==========')
 tinggi_badan = int(input('Tinggi badan (cm) :  > '))
 berat_badan = int(input('Berat badan (kg) :  > '))
 
