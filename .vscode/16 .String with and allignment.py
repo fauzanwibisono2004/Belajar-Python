@@ -1,3 +1,6 @@
+import os
+os.system('cls')
+
 ## With and Multiline
 
 # Data

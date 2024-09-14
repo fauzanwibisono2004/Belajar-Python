@@ -1,3 +1,6 @@
+import os
+os.system('cls')
+
 ### Date and Time
 import datetime as dt
 

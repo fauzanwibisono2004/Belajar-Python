@@ -1,3 +1,6 @@
+import os
+os.system('cls')
+
 ### Operator dalam bentuk methods
 
 ## Merubah case dari string

@@ -1,3 +1,5 @@
+import os
+os.system('cls')
 
 ### FILTER DATA NAMA MENGGUNAKAN LOOPING DAN IF ELSE
 print('\n===== FILTER DATA NAMA MENGGUNAKAN LOOPING DAN IF ELSE =====')

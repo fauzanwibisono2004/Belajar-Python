@@ -1,3 +1,6 @@
+import os
+os.system('cls')
+
 ### Operasi dan manipulasi string
 ## 1. Menyambung string (concatenate)
 print('==== 1. Menyambung string (concatenate) ====')

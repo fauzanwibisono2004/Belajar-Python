@@ -1,3 +1,6 @@
+import os
+os.system('cls')
+
 ### Kalkulator Sederhana
 
 print('====== Kalkulator Sederhana ======')

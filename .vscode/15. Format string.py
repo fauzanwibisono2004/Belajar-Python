@@ -1,3 +1,6 @@
+import os
+os.system('cls')
+
 ### Format string
 
 #sebelumnya kita tau :

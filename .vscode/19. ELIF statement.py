@@ -1,3 +1,6 @@
+import os
+os.system('cls')
+
 ### ELIF = Else If statement
 
 '''
