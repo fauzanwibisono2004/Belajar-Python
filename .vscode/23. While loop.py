@@ -54,15 +54,13 @@ while True :
 	for orang in nama :
     		if orang[2] >= tinggi_badan and orang[3] >= berat_badan : #Kita dapat langsung menulis orang[2] karena
         		terpilih.append(orang[0])
-    		else :
-        		pass
-
 
 	'''
-    Kita dapat langsung menulis orang[2] karena konsep looping secara otomatis akan mengecek 
+	Kita dapat langsung menulis orang[2] karena konsep looping secara otomatis akan mengecek 
 	indeks list dalam list untuk tinggi badan dalam list nama[0][2], nama[1][2], nama[3,2] begitu seterusnya 
 	sampai seluruh data dalam list nama didentifikasi.
-    '''
+
+	'''
 
 	## Menampilkan hasil filter
 	print(f'''
@@ -70,6 +68,7 @@ Orang dengan tinggi badan lebih dari {tinggi_badan} cm dan berat badan lebih dar
 ==>''')
 
 	print(terpilih,'\n')
+
 
 	lanjut = input("lanjut atau tidak? (y/n) : ")
 	if lanjut == "n" :
