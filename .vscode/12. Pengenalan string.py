@@ -1,3 +1,6 @@
+import os
+os.system('cls')
+
 ### Pengenalan string
 ## A. Cara membuat string
 print('\rA). Cara membuat string')
