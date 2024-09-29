@@ -1,3 +1,6 @@
+import os
+os.system('cls')
+
 ## Membuat gabungan area rentang dari angka
 '''
 - not (not)

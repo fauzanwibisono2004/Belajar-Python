@@ -1,3 +1,6 @@
+import os
+os.system('cls')
+
 ## Cara mengambil input dari user :
 print("Bebas mau masukin angka atau kalimat")
 data = input("Masukkan data input : ")

@@ -1,3 +1,6 @@
+import os
+os.system('cls')
+
 # Variabel adalah tempat menyimpan data
 a = 10
 x = 5

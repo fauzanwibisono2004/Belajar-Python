@@ -1,3 +1,6 @@
+import os
+os.system('cls')
+
 ## Tipe data yang ada di python :
 # 1. Angka yang tidak ada koma (integer)
 data_int = 1

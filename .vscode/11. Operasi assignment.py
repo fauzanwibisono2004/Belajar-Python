@@ -1,3 +1,6 @@
+import os
+os.system('cls')
+
 # Operasi yang dapat dilakukan dengan penyingkatan (+= , -= , *= , /= , **= , %= , //=)
 '''
 Operasi yang dapat dilakukan penyingkatan :

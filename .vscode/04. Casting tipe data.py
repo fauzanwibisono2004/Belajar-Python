@@ -1,3 +1,6 @@
+import os
+os.system('cls')
+
 # Casting adalah merubah dari satu tipe data ke tipe data yang lain
 # misalkan :
 print("=======INTEGER=======")

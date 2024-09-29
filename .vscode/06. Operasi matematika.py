@@ -1,3 +1,6 @@
+import os
+os.system('cls')
+
 # Beberapa operasi matematika yang perliu diketahui :
 """
 - Operasi tambah +

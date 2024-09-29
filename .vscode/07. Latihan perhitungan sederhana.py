@@ -1,3 +1,6 @@
+import os
+os.system('cls')
+
 # Latihan Konversi Satuan Temperature 
 print("\nPROGRAM KONVERSI TEMPERATURE\n")
 

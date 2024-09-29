@@ -1,3 +1,6 @@
+import os
+os.system('cls')
+
 # Menggunakan "cls" untuk clear terminal 
 # Meggunakan "python --version" akan menampilkan versi python
 # Mengunnakan "python 'nama file.py'" akan melakukan run

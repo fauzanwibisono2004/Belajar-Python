@@ -1,3 +1,6 @@
+import os
+os.system('cls')
+
 ## Operasi logika atau boolean
 # Ada beberapa operasi logika atau boolean, yaitu :
 '''
