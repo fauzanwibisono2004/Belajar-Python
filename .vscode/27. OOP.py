@@ -24,6 +24,10 @@ print(axe.name,' ',axe.health)
 print('\n')
 
 
+
+
+
+
 # CARA LAIN
 print('--------- CARA LAIN ---------')
 # Superclass / Kelas Induk

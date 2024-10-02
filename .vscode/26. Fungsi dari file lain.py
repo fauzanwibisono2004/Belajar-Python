@@ -1,3 +1,6 @@
+import os
+os.system("cls")
+
 import Rumus_Fisika as Rumus
 from importlib import reload
 reload(Rumus)
