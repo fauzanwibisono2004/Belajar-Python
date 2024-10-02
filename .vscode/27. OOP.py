@@ -25,9 +25,6 @@ print('\n')
 
 
 
-
-
-
 # CARA LAIN
 print('--------- CARA LAIN ---------')
 # Superclass / Kelas Induk
